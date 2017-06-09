@@ -1,0 +1,202 @@
+@import url(m_style.css);
+.man,
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+html {
+  font-size: 62.5%;
+}
+.man {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.man header {
+  width: 100%;
+  height: 0.98rem;
+  background: #ff5000;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.man header .frist_child {
+  margin: 0 0.2rem;
+}
+.man header .frist_child dt img {
+  width: 0.44rem;
+  height: 0.46rem;
+  background: none;
+  margin-left: 0.1rem;
+}
+.man header .frist_child dd {
+  color: white;
+  padding-top: 0.02rem;
+  font-size: 0.2rem;
+}
+.man header a {
+  position: relative;
+}
+.man header a input {
+  width: 4.89rem;
+  height: 0.64rem;
+  background: #d42d00;
+  border: none;
+  border-radius: 0.1rem;
+  background: #d42d00 url("../img/b.gif") no-repeat 0.12rem 0.15rem;
+  background-size: 0.4rem 0.34rem;
+  color: white;
+  padding-left: 0.5rem;
+  font-size: 0.3rem;
+}
+.man header a .img1 {
+  width: 0.4rem;
+  height: 0.34rem;
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 0.2rem;
+}
+.man header .last_child {
+  margin: 0 0.2rem;
+}
+.man header .last_child dt img {
+  width: 0.57rem;
+  height: 0.48rem;
+  background: none;
+}
+.man header .last_child dd {
+  color: white;
+  padding-top: 0.02rem;
+  font-size: 0.2rem;
+}
+.man section {
+  -webkit-box-flex: 1;
+}
+.man section .top {
+  width: 100%;
+  height: 2.36rem;
+  background: none;
+}
+.man section .top img {
+  width: 100%;
+  height: 2.36rem;
+  background: none;
+}
+.man section .nav {
+  width: 100%;
+  height: 2.84rem;
+  background: none;
+  margin-top: 0.24rem;
+}
+.man section .nav .swiper-container {
+  margin: 0 0.3rem;
+}
+.man section .nav .swiper-container .swiper-wrapper .swiper-slide dl {
+  text-align: center;
+}
+.man section .nav .swiper-container .swiper-wrapper .swiper-slide dl dt img {
+  width: 0.89rem;
+  height: 0.89rem;
+  background: none;
+}
+.man section .nav .swiper-container .swiper-wrapper .swiper-slide dl dd {
+  padding-top: 0.11rem;
+}
+.man section .hot {
+  width: 100%;
+  height: 1.15rem;
+  background: none;
+  border-top: 1px solid #cccccc;
+  margin-top: 0.5rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 10px solid #eeeeee;
+}
+.man section .hot .l {
+  width: 1.51rem;
+  height: 1.15rem;
+  background: none;
+  border-right: 1px solid #cccccc;
+}
+.man section .hot .l img {
+  width: 0.8rem;
+  height: 0.81rem;
+  background: none;
+  margin-top: 0.2rem;
+  margin-left: 0.4rem;
+}
+.man section .hot .r {
+  width: 5.86rem;
+  height: 1.15rem;
+  background: none;
+}
+.man section .hot .r ul li {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-top: 0.16rem;
+  margin-left: 0.2rem;
+}
+.man section .hot .r ul li span {
+  display: block;
+  width: 0.59rem;
+  height: 0.3rem;
+  background: none;
+  border: 1px solid #ef3138;
+  text-align: center;
+  border-radius: 0.08rem;
+  color: #ef3138;
+}
+.man section .hot .r ul li a {
+  font-size: 0.23rem;
+  padding-left: 0.1rem;
+}
+.man section .main {
+  width: 100%;
+  height: 3.8rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.man section .main .left {
+  width: 2.8rem;
+  height: 3.8rem;
+  background: #ff0000;
+  background: url(../img/11.gif) no-repeat;
+  background-size: 2.8rem;
+}
+.man section .main .left #timeshow {
+  margin-top: 1.1rem;
+  margin-left: 0.5rem;
+}
+.man section .main .right {
+  width: 4.64rem;
+  height: 3.8rem;
+  background: #ff0000;
+  background: url(../img/12.gif) no-repeat;
+  background-size: 4.64rem;
+}
+.man footer {
+  width: 100%;
+  height: 0.96rem;
+  background: #f8f4f3;
+  border-top: 1px solid #cccccc;
+}
+.man footer .swiper-container {
+  margin-left: 0.4rem;
+}
+.man footer .swiper-container .swiper-wrapper .swiper-slide dl {
+  -webkit-box-flex: 1;
+}
+.man footer .swiper-container .swiper-wrapper .swiper-slide dl dt img {
+  width: 0.49rem;
+  height: 0.44rem;
+  background: none;
+  margin-top: 0.16rem;
+}
+.man footer .swiper-container .swiper-wrapper .swiper-slide dl dd {
+  padding-top: 0.02rem;
+  color: #7b7f87;
+  font-size: 0.19rem;
+}
